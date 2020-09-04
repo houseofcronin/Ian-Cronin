@@ -20,8 +20,7 @@ int main()
 		printf("Please type integers to multiply.\n");
 		printf("Type '0' for either or both inputs to exit.\n\n");
 
-		scanf(" %i", &input1);
-		scanf(" %i", &input2);
+		scanf(" %i %i", &input1, &input2);
 		int product = (input1 * input2);
 
 		if (input1 == 0 || input2 == 0)
