@@ -61,5 +61,12 @@ int main()
 	}
 	
 
+	// The ternary operator is used to make an if-else decision.
+	int y;
+	int x = 15;
+
+	y = (x >= 5) ? 5 : x;
+	printf("y = %i\n", y);
+
 	return 0;
 }
